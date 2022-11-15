@@ -15,46 +15,54 @@
 7. Now you can type your *`HTML Code`* here and after saving it you can go in the browser and reload it to check if your code works.
 
    ```HTML
-   <h1>Calculator Design Using HTML Layout</h1>
-       <div class="container">
-         <div class="header">Calculator</div>
-         <input type="text" class="result" placeholder="Enter your calculations">
-         <div class="first-row">
-           <input type="button" name="" value="&radic;" class="global">
-           <input type="button" name="" value="(" class="global">
-           <input type="button" name="" value=")" class="global">
-           <input type="button" name="" value="%" class="global">
-         </div>
-         <div class="second-row">
-           <input type="button" name="" value="7" class="global">
-           <input type="button" name="" value="8" class="global">
-           <input type="button" name="" value="9" class="global">
-           <input type="button" name="" value="/" class="global">
-         </div>
-         <div class="third-row">
-           <input type="button" name="" value="4" class="global">
-           <input type="button" name="" value="5" class="global">
-           <input type="button" name="" value="6" class="global">
-           <input type="button" name="" value="X" class="global">
-         </div>
-         <div class="fourth-row">
-           <input type="button" name="" value="1" class="global">
-           <input type="button" name="" value="2" class="global">
-           <input type="button" name="" value="3" class="global">
-           <input type="button" name="" value="-" class="global">
-         </div>
-         <div class="conflict">
-           <div class="left">
-             <input type="button" name="" value="0" class=" big">
-             <input type="button" name="" value="." class=" small">
-             <input type="button" name="" value="Del" class=" red small white-text top-margin">
-             <input type="button" name="" value="=" class=" green white-text big top-margin">
-           </div>
-           <div class="right">
-             <input type="button" name="" value="+" class="global grey plus">
-           </div>
-         </div>
-       </div>
+   <!DOCTYPE html>
+   <html lang="en">
+      <head>
+          <title>Calculator</title>
+      </head>
+      <body>
+          <h1>Calculator Design Using HTML Layout</h1>
+             <div class="container">
+               <div class="header">Calculator</div>
+               <input type="text" class="result" placeholder="Enter your calculations">
+               <div class="first-row">
+                 <input type="button" name="" value="&radic;" class="global">
+                 <input type="button" name="" value="(" class="global">
+                 <input type="button" name="" value=")" class="global">
+                 <input type="button" name="" value="%" class="global">
+               </div>
+               <div class="second-row">
+                 <input type="button" name="" value="7" class="global">
+                 <input type="button" name="" value="8" class="global">
+                 <input type="button" name="" value="9" class="global">
+                 <input type="button" name="" value="/" class="global">
+               </div>
+               <div class="third-row">
+                 <input type="button" name="" value="4" class="global">
+                 <input type="button" name="" value="5" class="global">
+                 <input type="button" name="" value="6" class="global">
+                 <input type="button" name="" value="X" class="global">
+               </div>
+               <div class="fourth-row">
+                 <input type="button" name="" value="1" class="global">
+                 <input type="button" name="" value="2" class="global">
+                 <input type="button" name="" value="3" class="global">
+                 <input type="button" name="" value="-" class="global">
+               </div>
+               <div class="conflict">
+                 <div class="left">
+                   <input type="button" name="" value="0" class=" big">
+                   <input type="button" name="" value="." class=" small">
+                   <input type="button" name="" value="Del" class=" red small white-text top-margin">
+                   <input type="button" name="" value="=" class=" green white-text big top-margin">
+                 </div>
+                 <div class="right">
+                   <input type="button" name="" value="+" class="global grey plus">
+                 </div>
+               </div>
+             </div>
+      </body>
+   </html>
    ```
 
 8. Now Hit *`Ctrl+S`* to save the file.
