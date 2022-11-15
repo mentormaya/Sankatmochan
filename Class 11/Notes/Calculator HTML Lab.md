@@ -18,7 +18,7 @@
    <h1>Calculator Design Using HTML Layout</h1>
        <div class="container">
          <div class="header">Calculator</div>
-         <input type="text" class="result">
+         <input type="text" class="result" placeholder="Enter your calculations">
          <div class="first-row">
            <input type="button" name="" value="&radic;" class="global">
            <input type="button" name="" value="(" class="global">
@@ -64,7 +64,7 @@
     <h1>Calculator Design Using HTML Layout</h1>
        <div class="container">
          <div class="header">Calculator</div>
-         <input type="text" class="result">
+         <input type="text" class="result" placeholder="Enter your calculations">
          <div class="first-row">
            <input type="button" name="" value="&radic;" class="global">
            <input type="button" name="" value="(" class="global">
