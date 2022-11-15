@@ -17,9 +17,29 @@ Peer-to-peer architecture is a type of network layout where each device has the 
 
 ![Peer-to-peer Architecture]('./../../../images/p2p.jpg)
 
-### What Is Peer-to-Peer Architecture?
+### **What Is Peer-to-Peer Architecture?**
 
 Peer-to-peer architecture focuses on connectivity, and each node has its own data. Every node has equal abilities, capable of requesting and responding to the services. The peer-to-peer architecture is best suited for networks that have only few number of devices for as example less than 10 devices. Otherwise, it will be very complex to maintain and costly to implement this architecture on the system.
+
+### **What Are the Advantages of Peer-to-Peer Architecture?**
+
+The advantages of peer-to-peer architecture are given below.
+
+1. Peer-to-peer architecture is less costly than the client/server network model.
+2. Sharing files is easy and fast, regardless of distance.
+3. The network is easy to set up, even without professional expertise.
+4. There’s no need for professionals as each peer has its own settings.
+5. The failure of one node won’t disrupt the rest of the network.
+6. Adding new people to the network is easy.
+
+#### **What Are the Disadvantages of Peer-to-Peer Architecture?**
+
+The disadvantages of peer-to-peer architecture are given below.
+
+1. Peer-to-peer architecture becomes less stable with the increase of peers in the network.
+2. This model is more susceptible to virus attacks.
+3. Files and resources are not centralized, which results in less organization.
+4. Backing up data is hard to achieve due to the lack of a central server.
 
 ## Client/server Architecture
 
