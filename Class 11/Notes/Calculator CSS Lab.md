@@ -6,13 +6,18 @@
 
 ## Steps to be followed
 
-1. Create a Folder with whatever name you would like to give to your project to the location somewhere on computer.
+1. Locate the Folder with HTML file you have created for your project to the location somewhere on computer.
 2. Double click on the folder to go inside the folder.
 3. Right click inside the folder and go to *New* and select *New Text Document*.
-4. Give the file name as you want. Here in this example i am giving a name of *`calculator.html`*, so type that and hit *`Enter`*.
-5. Now Double Click on the file Created to open it in the default Browser.
+4. Give the file name as you want. Here in this example i am giving a name of *`style.css`*, so type that and hit *`Enter`*.
+5. Now Double Click on the HTML file Created to open it in the default Browser.
 6. Again go to the Folder where file is created and open that file in notepad or any text editor of your choice.
-7. Now you can type your *`HTML Code`* here and after saving it you can go in the browser and reload it to check if your code works.
+7. Add this code below in the HTML file inside the head section
+   ```HTML
+    <link rel="stylesheet" href="style.css">
+   ```
+8. Similarly also open the recently created *`Style.css`* with notepad or any text editor of your choice.
+9.  Now you can type your *`CSS Code`* here and after saving it you can go in the browser and reload it to check if your code works.
 
    ```CSS
    h1{
@@ -127,9 +132,9 @@
 
    ```
 
-8. Now Hit *`Ctrl+S`* to save the file.
-9. Goto the Browser you opened previously and refresh your browser with either shortcut *`F5`* or reload button in the browser.
-10. You will get output something like this:
+11. Now Hit *`Ctrl+S`* to save the file.
+12. Goto the Browser you opened previously and refresh your browser with either shortcut *`F5`* or reload button in the browser.
+13. You will get output something like this:
 
 >Congratulations!!! You have Successfully stylized the HTML code for Beautiful Calculator!
 
