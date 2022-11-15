@@ -37,6 +37,25 @@ Decimal counting uses the ten symbols 0 through 9. Counting begins with the incr
   090, 091, 092, ... 097, 098, 099, (rightmost two digits are reset to zeroes, and next digit is incremented)
   100, 101, 102, ...
 
+| Decimal number | Binary number |
+|-------------|---------------|
+| 0  | 0 |
+| 1 | 1  |
+| 2 | 10  |
+| 3 | 11  |
+| 4 | 100  |
+| 5 | 101  |
+| 6 | 110  |
+| 7 | 111  |
+| 8 | 1000  |
+| 9 | 1001  |
+| 10 | 1010  |
+| 11 | 1011  |
+| 12 | 1100  |
+| 13 | 1101  |
+| 14 | 1110  |
+| 15 | 1111  |
+
 #### **Binary counting**
 
 This counter shows how to count in binary from numbers zero through thirty-one.
