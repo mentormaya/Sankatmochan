@@ -37,6 +37,21 @@ Decimal counting uses the ten symbols 0 through 9. Counting begins with the incr
   090, 091, 092, ... 097, 098, 099, (rightmost two digits are reset to zeroes, and next digit is incremented)
   100, 101, 102, ...
 
+#### **Binary counting**
+
+Binary counting follows the exact same procedure, and again the incremental substitution begins with the least significant digit, or bit (the rightmost one, also called the first bit), except that only the two symbols 0 and 1 are available. Thus, after a bit reaches 1 in binary, an increment resets it to 0 but also causes an increment of the next bit to the left:
+
+>0000, 0001, (rightmost bit starts over, and next digit is incremented)
+0010, 0011, (rightmost two bits start over, and next bit is incremented)
+0100, 0101, 0110, 0111, (rightmost three bits start over, and the next bit is incremented)
+1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111 ...
+
+In the binary system, each bit represents an increasing power of 2, with the rightmost bit representing 20, the next representing 21, then 22, and so on. The value of a binary number is the sum of the powers of 2 represented by each "1" bit. For example, the binary number 100101 is converted to decimal form as follows:
+
+1001012 = [ ( 1 ) × 25 ] + [ ( 0 ) × 24 ] + [ ( 0 ) × 23 ] + [ ( 1 ) × 22 ] + [ ( 0 ) × 21 ] + [ ( 1 ) × 20 ]
+1001012 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
+1001012 = 3710
+
 | Decimal number | Binary number |
 |-------------|---------------|
 | 0  | 0 |
@@ -55,21 +70,3 @@ Decimal counting uses the ten symbols 0 through 9. Counting begins with the incr
 | 13 | 1101  |
 | 14 | 1110  |
 | 15 | 1111  |
-
-#### **Binary counting**
-
-This counter shows how to count in binary from numbers zero through thirty-one.
-
-A party trick to guess a number from which cards it is printed on uses the bits of the binary representation of the number. In the SVG file, click a card to toggle it
-Binary counting follows the exact same procedure, and again the incremental substitution begins with the least significant digit, or bit (the rightmost one, also called the first bit), except that only the two symbols 0 and 1 are available. Thus, after a bit reaches 1 in binary, an increment resets it to 0 but also causes an increment of the next bit to the left:
-
->0000, 0001, (rightmost bit starts over, and next digit is incremented)
-0010, 0011, (rightmost two bits start over, and next bit is incremented)
-0100, 0101, 0110, 0111, (rightmost three bits start over, and the next bit is incremented)
-1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111 ...
-
-In the binary system, each bit represents an increasing power of 2, with the rightmost bit representing 20, the next representing 21, then 22, and so on. The value of a binary number is the sum of the powers of 2 represented by each "1" bit. For example, the binary number 100101 is converted to decimal form as follows:
-
-1001012 = [ ( 1 ) × 25 ] + [ ( 0 ) × 24 ] + [ ( 0 ) × 23 ] + [ ( 1 ) × 22 ] + [ ( 0 ) × 21 ] + [ ( 1 ) × 20 ]
-1001012 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
-1001012 = 3710
