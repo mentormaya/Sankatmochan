@@ -49,9 +49,11 @@ Binary counting follows the exact same procedure, and again the incremental subs
 
 In the binary system, each bit represents an increasing power of 2, with the rightmost bit representing 2<sup>0</sup>, the next representing 2<sup>1</sup>, then 2<sup>2</sup>, and so on. The value of a binary number is the sum of the powers of 2 represented by each "1" bit. For example, the binary number 100101 is converted to decimal form as follows:
 
-1001012 = [ ( 1 ) × 25 ] + [ ( 0 ) × 24 ] + [ ( 0 ) × 23 ] + [ ( 1 ) × 22 ] + [ ( 0 ) × 21 ] + [ ( 1 ) × 20 ]
-1001012 = [ 1 × 32 ] + [ 0 × 16 ] + [ 0 × 8 ] + [ 1 × 4 ] + [ 0 × 2 ] + [ 1 × 1 ]
-1001012 = 3710
+>(100101)<sub>2</sub> = 1 x 2<sup>5</sup> + 0 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup>
+
+>(1001012)<sub>2</sub> = 1 × 32 + 0 × 16 + 0 × 8 + 1 × 4 + 0 × 2 + 1 × 1
+
+>1001012 = 3710
 
 | Decimal number | Binary number |
 |-------------|---------------|
