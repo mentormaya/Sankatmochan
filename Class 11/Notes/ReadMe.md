@@ -47,13 +47,15 @@ Binary counting follows the exact same procedure, and again the incremental subs
 0100, 0101, 0110, 0111, (rightmost three bits start over, and the next bit is incremented)
 1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111 ...
 
+### **Binary to Decimal Conversion**
+
 In the binary system, each bit represents an increasing power of 2, with the rightmost bit representing 2<sup>0</sup>, the next representing 2<sup>1</sup>, then 2<sup>2</sup>, and so on. The value of a binary number is the sum of the powers of 2 represented by each "1" bit. For example, the binary number 100101 is converted to decimal form as follows:
 
->(100101)<sub>2</sub> = 1 x 2<sup>5</sup> + 0 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup>
+>(100101)<sub>2</sub> = (1 x 2<sup>5</sup> + 0 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup>)<sub>10</sub>
 
->(1001012)<sub>2</sub> = 1 × 32 + 0 × 16 + 0 × 8 + 1 × 4 + 0 × 2 + 1 × 1
+>(1001012)<sub>2</sub> = (1 × 32 + 0 × 16 + 0 × 8 + 1 × 4 + 0 × 2 + 1 × 1)<sub>10</sub>
 
->1001012 = 3710
+>(100101)<sub>2</sub> = (3710)<sub>10</sub>
 
 | Decimal number | Binary number |
 |-------------|---------------|
