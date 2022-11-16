@@ -53,7 +53,7 @@ In the binary system, each bit represents an increasing power of 2, with the rig
 
 >(100101)<sub>2</sub> = (1 x 2<sup>5</sup> + 0 x 2<sup>4</sup> + 0 x 2<sup>3</sup> + 1 x 2<sup>2</sup> + 0 x 2<sup>1</sup> + 1 x 2<sup>0</sup>)<sub>10</sub>
 
->(1001012)<sub>2</sub> = (1 × 32 + 0 × 16 + 0 × 8 + 1 × 4 + 0 × 2 + 1 × 1)<sub>10</sub>
+>(100101)<sub>2</sub> = (1 × 32 + 0 × 16 + 0 × 8 + 1 × 4 + 0 × 2 + 1 × 1)<sub>10</sub>
 
 >(100101)<sub>2</sub> = (3710)<sub>10</sub>
 
@@ -75,3 +75,21 @@ In the binary system, each bit represents an increasing power of 2, with the rig
 | 13 | 1101  |
 | 14 | 1110  |
 | 15 | 1111  |
+
+#### **Binary to Decimal of Fraction**
+
+So far we have only looked at whole numbers (integers), we need to understand how computers represent fractions.
+
+You should have learned at Primary School how a decimal fraction works:
+
+$$
+\begin{matrix}
+  10^1 & 10^0 &   & 10^{-1} & 10^{-2} \\
+  \\
+  10 & 1 &   & {\frac {1}{10}} & {\frac {1}{100}} \\
+  \\
+  1 & 2 & . & 7 & 5 \\
+\end{matrix}
+$$
+As you can see, the column headings have been extended to ${\displaystyle 10^{-1}={\frac {1}{10}}}$ and ${\displaystyle 10^{-2}={\frac {1}{100}}}$. We can do the same thing in binary with the column headings ${\displaystyle 2^{-1}={\frac {1}{2}}}$, ${\displaystyle 2^{-2}={\frac {1}{4}}}$, and so on. The number 12.75 in 8 bit binary with 4 bits after the binary point is therefore $8 + 4 + 0.5 + 0.25$:
+### **Decimal to Binary Conversion**
